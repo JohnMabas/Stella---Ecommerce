@@ -52,7 +52,7 @@ function Header() {
               <FaHeart />
             </span>
             <div>
-                <div>
+                <div className="flex items-center">
                     <span>
                 {" "}
                 <ReactCountryFlag countryCode="US" />
