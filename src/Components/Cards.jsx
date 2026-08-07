@@ -75,6 +75,60 @@ function Cards(){
 
                     </div>
                 </div>
+
+                <div className="w-64 space-y-2">
+                    <div className="bg-gray-300 rounded-2xl">
+                    <img src={man3} alt="" />
+                    <span className=" relative bottom-64 p-1 text-sm bg-blue-400 ">New Arrival</span>
+                    </div>
+
+                    <div className="flex justify-between">
+                        <p className="text-sm">Uniqio</p>
+                        <span className="text-gray-400 "><FaHeart/></span>
+                    </div>
+                    <h4 className="font-bold">Classic Long Sleeve</h4>
+                    <div className="flex justify-between">
+                    <p className="text-blue-400">SAR 40.00</p>
+                    <p className="text-red-400 text-sm">12 Items left</p>
+
+                    </div>
+                </div>
+
+                <div className="w-64 space-y-2">
+                    <div className="bg-gray-300 rounded-2xl">
+                    <img src={man3} alt="" />
+                    <span className=" relative bottom-64 p-1 text-sm bg-blue-400 ">New Arrival</span>
+                    </div>
+
+                    <div className="flex justify-between">
+                        <p className="text-sm">Uniqio</p>
+                        <span className="text-gray-400 "><FaHeart/></span>
+                    </div>
+                    <h4 className="font-bold">Classic Long Sleeve</h4>
+                    <div className="flex justify-between">
+                    <p className="text-blue-400">SAR 40.00</p>
+                    <p className="text-red-400 text-sm">12 Items left</p>
+
+                    </div>
+                </div>
+
+                <div className="w-64 space-y-2">
+                    <div className="bg-gray-300 rounded-2xl">
+                    <img src={man3} alt="" />
+                    <span className=" relative bottom-64 p-1 text-sm bg-blue-400 ">New Arrival</span>
+                    </div>
+
+                    <div className="flex justify-between">
+                        <p className="text-sm">Uniqio</p>
+                        <span className="text-gray-400 "><FaHeart/></span>
+                    </div>
+                    <h4 className="font-bold">Classic Long Sleeve</h4>
+                    <div className="flex justify-between">
+                    <p className="text-blue-400">SAR 40.00</p>
+                    <p className="text-red-400 text-sm">12 Items left</p>
+
+                    </div>
+                </div>
             </div>
 
 

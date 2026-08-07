@@ -5,7 +5,7 @@ function Nav(){
             <ul className="flex  items-center gap-5">
                 <a className="text-blue-400" href="">Home</a>
                 <span></span>
-                <a href="">Clothes</a>
+                <a className="text-sm" href="">Clothes</a>
             </ul>
         </nav>
 
