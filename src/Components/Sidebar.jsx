@@ -12,22 +12,22 @@ function Sidebar(){
     return(
         <>
         <section className="border border-gray-400 w-60 h-full ml-5 mt-4">
-            <div className="flex justify-between items-center p-2">
+            <div className="flex justify-between items-center p-2 bg-gray-300">
                 <span>Filter</span>
                 <span className="text-blue-400">Advanced</span>
             </div>
-            <div>
+            <div className="flex justify-between items-center p-2">
                 <span>Brand</span>
                 <span>=</span>
             </div>
-            <div className="rounded-lg flex items-center gap-2 p-2 border border-gray-400 w-48">
+            <div className="rounded-lg flex items-center gap-2 p-2 border border-gray-400 w-56 m-2">
                 <span>
                  <FaSearch />
                 </span>
                 <input className="w-36" type="text" placeholder="Search brand..." />
             </div>
 
-            <div>
+            <div className="p-2 space-y-2">
                 <span className="flex items-center gap-2">
                     <img className="w-10" src={Nike} alt="" />
                     <p className="text-lg">Nike</p>
@@ -50,12 +50,12 @@ function Sidebar(){
                 </span>
                 <span className="flex items-center gap-2">
                     <img className="w-10" src={Puma} alt="" />
-                    <b className="text-lg">Puma</b>
+                    <p className="text-lg">Puma</p>
                     
                 </span>
                 <span className="flex items-center gap-2">
                     <img className="w-10" src={Uniqlo} alt="" />
-                    <b className="text-lg">Uniqlo</b>
+                    <p className="text-lg">Uniqlo</p>
                     
                 </span>
             </div>
