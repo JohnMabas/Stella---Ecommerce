@@ -1,4 +1,5 @@
 import './App.css'
+import Cards from './Components/Cards'
 import Header from './Components/Header'
 import Hero from './Components/Hero'
 import Nav from './Components/Nav'
@@ -12,8 +13,9 @@ function App() {
   <Hero />
   <Nav />
 
-  <section>
+  <section className='flex '>
     <Sidebar />
+    <Cards />
     
   </section>
      
