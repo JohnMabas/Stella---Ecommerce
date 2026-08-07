@@ -1,5 +1,6 @@
 import man1 from "/src/assets/man1.png"
-import man2 from "/src/assets/man3.png"
+import man2 from "/src/assets/man2.png"
+import man3 from "/src/assets/man3.png"
 import { FaHeart } from "react-icons/fa";
 
 function Cards(){
@@ -17,10 +18,12 @@ function Cards(){
                 </div>
             </div>
 
-            <div>
+            {/* Cards */}
+
+            <div className="grid grid-cols-3  items-center mt-5 ">
 
                 <div className="w-64 space-y-2">
-                    <div className="bg-red-200 rounded-2xl">
+                    <div className="bg-gray-300 rounded-2xl">
                     <img src={man1} alt="" />
                     <span className=" relative bottom-64 p-1 text-sm bg-blue-400 ">New Arrival</span>
                     </div>
@@ -38,7 +41,7 @@ function Cards(){
                 </div>
 
                  <div className="w-64 space-y-2">
-                    <div className="bg-red-200 rounded-2xl">
+                    <div className="bg-gray-300 rounded-2xl">
                     <img src={man2} alt="" />
                     <span className=" relative bottom-64 p-1 text-sm bg-blue-400 ">New Arrival</span>
                     </div>
@@ -47,7 +50,25 @@ function Cards(){
                         <p className="text-sm">Uniqio</p>
                         <span className="text-gray-400 "><FaHeart/></span>
                     </div>
-                    <h4 className="font-bold">Zip Up Neck Shirk</h4>
+                    <h4 className="font-bold">Zip Up Neck Shirt</h4>
+                    <div className="flex justify-between">
+                    <p className="text-blue-400">SAR 40.00</p>
+                    <p className="text-red-400 text-sm">12 Items left</p>
+
+                    </div>
+                </div>
+
+                <div className="w-64 space-y-2">
+                    <div className="bg-gray-300 rounded-2xl">
+                    <img src={man3} alt="" />
+                    <span className=" relative bottom-64 p-1 text-sm bg-blue-400 ">New Arrival</span>
+                    </div>
+
+                    <div className="flex justify-between">
+                        <p className="text-sm">Uniqio</p>
+                        <span className="text-gray-400 "><FaHeart/></span>
+                    </div>
+                    <h4 className="font-bold">Classic Long Sleeve</h4>
                     <div className="flex justify-between">
                     <p className="text-blue-400">SAR 40.00</p>
                     <p className="text-red-400 text-sm">12 Items left</p>
